@@ -5,6 +5,7 @@
 header{
     background-color: #1f2937;
     color: #f9faf8;
+    display: flex;
 }
 
 a{
@@ -24,4 +25,9 @@ h1{
 .hero-main-text{
     font-size: 48px;
     font-weight: 900;
+}
+
+.top{
+    display: flex;
+    
 }
