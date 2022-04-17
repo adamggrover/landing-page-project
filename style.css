@@ -123,8 +123,9 @@ h2{
 
 .boxes{
     display: flex;
-    gap: 50px;
+    width: 800px;
     text-align: justify;
+    justify-content: space-between;
     
 }
 
@@ -139,10 +140,14 @@ h2{
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 }
 
 .one, .two, .three, .four{
-    width:200px;
+    width:160px;
     display: flex;
     flex-direction: column;
+    font-size: 12px;
+    flex: 0 0 auto;    
 }
+
