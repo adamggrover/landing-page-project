@@ -14,6 +14,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 70px;
     
 }
 
@@ -37,6 +38,7 @@
 
 
 
+
 .section{
     
     display:flex;
@@ -50,21 +52,29 @@
     display: flex;
     justify-content: space-between;
     width: 800px;
-    
-    
+    padding-top: 50px;
     
 }
 
+
+
+
 .left-hero{
     max-width: 400px;
+    
 
     
+}
+p{
+    margin-top: -25px;
 }
 
 .nav-bar{
     display: flex;
     gap: 20px;
     flex: 0 0 auto;
+    font-size: 18px;
+    color: #e5e7eb;
     
 }
 
@@ -88,6 +98,8 @@ button{
     background-color: #3882f6;
     border: 0;
     padding: 8px 15px;
+    margin-top: -5px;
+    
 } 
 
 h1{
@@ -104,4 +116,6 @@ h2{
 .hero-main-text{
     font-size: 48px;
     font-weight: 900;
+    margin-bottom: 0;
+    
 }
