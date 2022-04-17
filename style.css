@@ -1,96 +1,27 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing Page</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-</head>
+*{
+    font-family: 'Roboto', sans-serif;
+}
 
-<body>
+header{
+    background-color: #1f2937;
+    color: #f9faf8;
+}
 
-    <header>
+a{
+    color: white;
+}
 
-        <div class='top'>
-            <div='hero-main-text'>
-                <h1>Awesome Website</h1>
-            </div>
-            <div class='nav-bar'>
-                <a href="">link one</a>
-                <a href="">link two</a>
-                <a href="">link three</a>
-        
+button{
+    background-color: #3882f6;
+    border: 0;
+} 
 
-            </div>
-        </div>
+h1{
+    color: #f9faf8;
+    font-size: 24px;
+}
 
-        <div class="bottom">
-
-            <div class="left-text">
-                <h1>This website is awesome!</h1>
-                <p>This is a super awesome website with everything you could ever want from a landing page</p>
-                <button>Sign up</button>
-            </div>
-            <img src="" alt="">
-        </div>
-
-    
-
-    </header>
-
-    <div class='info-section'>
-        <div class='info-title'>
-            Services
-        </div>
-        <div class="boxes">
-            <div class="one">
-                <img src="" alt="">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vestibulum mollis ligula, eu facilisis tortor sodales at. Nulla vitae hendrerit lacus, sit amet bibendum nibh. Sed in dui felis.</p>
-            </div>
-            <div class="two">
-                <img src="" alt="">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vestibulum mollis ligula, eu facilisis tortor sodales at. Nulla vitae hendrerit lacus, sit amet bibendum nibh. Sed in dui felis.</p>               
-            </div>
-            <div class="three">
-                <img src="" alt="">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vestibulum mollis ligula, eu facilisis tortor sodales at. Nulla vitae hendrerit lacus, sit amet bibendum nibh. Sed in dui felis.</p>                
-            </div>
-            <div class="four">
-                <img src="" alt="">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vestibulum mollis ligula, eu facilisis tortor sodales at. Nulla vitae hendrerit lacus, sit amet bibendum nibh. Sed in dui felis.</p>                
-            </div>
-        </div>
-
-    </div>
-
-    <div class='testimonial-section'>
-        <div class=quote>
-            Adam is an absolute pleasure to work with, he made the whole process extremely pleasurable and we will definitely be working with him again
-        </div>
-        <div class="credit">
-            "-Alex, Boss of BigCompany"
-        </div>
-
-    </div>
-    
-    <div class='action-section'>
-        <div class="action-box">
-            <div class="action-text">
-                <h2>Call to action! It's time!</h2>
-                <p>Sign up to hear the most up-to-date news</p>
-            </div>
-            <button>Sign up</button>
-        </div>
-
-    </div>
-
-    <footer>
-        <p>Copyright &#169 Adam Grover Web Design 2022</p>
-    </footer>
-    
-</body>
-</html>
+.hero-main-text{
+    font-size: 48px;
+    font-weight: 900;
+}
