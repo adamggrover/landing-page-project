@@ -123,6 +123,8 @@ h2{
 
 .boxes{
     display: flex;
+    flex-wrap: wrap;
+    flex: 0 0 auto;
     width: 800px;
     text-align: justify;
     justify-content: space-between;
@@ -136,10 +138,14 @@ h2{
     
 }
 
+
+
 .info-container{
     display: flex;
     flex-direction: column;
     align-items: center;
+    flex-wrap: wrap;
+    
     
 }
 
@@ -150,6 +156,7 @@ h2{
     font-size: 12px;
     flex: 0 0 auto; 
     text-align: center;  
+    
 }
 
 .quote-section{
