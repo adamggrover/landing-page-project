@@ -24,9 +24,7 @@
     align-items:center;
     width: 800px;
     
-    flex-wrap: wrap;
-    
-    
+    flex-wrap: wrap;   
     
 }
 
@@ -35,9 +33,6 @@
     height: auto;
     
 }
-
-
-
 
 .section{
     
@@ -56,18 +51,10 @@
     
 }
 
-
-
-
 .left-hero{
-    max-width: 400px;
-    
+    max-width: 400px;    
+}
 
-    
-}
-p{
-    margin-top: -25px;
-}
 
 .nav-bar{
     display: flex;
@@ -78,16 +65,11 @@ p{
     
 }
 
-
-
-
 .container{
     width:1100px;
     display: flex;
     justify-content: center;    
 }
-
-
 
 a{
     color: white;
@@ -100,12 +82,14 @@ button{
     padding: 8px 15px;
     margin-top: -5px;
     border-radius: 5px;
+    color: #f9faf8;
     
 } 
 
 h1{
     color: #f9faf8;
     font-size: 48px;
+    
 }
 
 h2{
@@ -142,14 +126,14 @@ h2{
     display: flex;
     flex-wrap: wrap;
     flex: 1 0 auto;
+    justify-content: center;
 }
 
 .info-container{
     display: flex;
     flex-direction: column;
     align-items: center;
-    flex-wrap: wrap;
-    
+    flex-wrap: wrap;   
     
 }
 
@@ -186,12 +170,37 @@ h2{
     flex-wrap: wrap;
     text-align: justify;
     padding: 40px;
-   
-    
+      
 }
 .credit{
     display: flex;
     justify-content: end;
     margin-top: 40px;
     padding-right: 50px;
+}
+
+.action-section{
+    display: flex;
+    justify-content: center;
+    padding: 60px 0px;
+}
+
+.action-box{
+    background-color: #3882f6;
+    display: flex;
+    padding: 20px 50px;
+    color: #f9faf8;
+    align-items: center;
+    width: 800px;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+
+
+.button-two{
+    border: #f9faf8 solid 2px;   
+}
+
+p{
+    margin-top: -15px;
 }
